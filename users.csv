@@ -1,0 +1,11 @@
+username,primary_group,home_mode,shell,password
+alice,developers,700,/bin/bash
+bob,developers,750,/bin/bash,Str0ng!Passw0rd#1
+carol,admins,700,/bin/bash
+dave,testers,750,/bin/bash
+# --- invalid rows to prove input validation ---
+Eve,testers,700,/bin/bash
+frank,testers,777,/bin/bash
+grace,testers,700,/bin/nosuchshell
+heidi,testers,700,/bin/bash,weak
+root,admins,700,/bin/bash

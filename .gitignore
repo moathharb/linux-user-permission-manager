@@ -1,0 +1,12 @@
+# VM installer and disk images (several GB)
+iso/
+*.iso
+*.vhdx
+*.vdi
+
+# generated passwords and local logs must never be committed
+credentials_*.txt
+*.log
+
+# Office lock files
+~$*
